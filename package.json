@@ -1,28 +1,19 @@
 {
-  "name": "hello-node",
-  "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
-  "main": "server.js",
+  "name": "vortex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vortexdev.js",
   "scripts": {
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "fastify": "^3.25.0",
-    "fastify-formbody": "^5.2.0",
-    "fastify-static": "^4.5.0",
-    "handlebars": "^4.7.7",
-    "point-of-view": "^4.16.0"
+    "start": "node vortexdev.js"
   },
   "engines": {
     "node": "12.x"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aoi.js": "^3.0.0",
+    "v4": "^0.0.1",
+    "aws-signature-v4": "^1.4.0"
+  }
 }
