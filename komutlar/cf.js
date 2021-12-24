@@ -40,4 +40,3 @@ $onlyIf[$message[1]<50001;:emoji_71: | 50.000'den Fazla Giremezsin]
 
 }; 
 
-komutlar/cf.js
