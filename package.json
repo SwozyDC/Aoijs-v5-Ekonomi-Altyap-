@@ -1,19 +1,14 @@
 {
-  "name": "vortex",
-  "version": "1.0.0",
-  "description": "",
-  "main": "vortexdev.js",
   "scripts": {
-    "start": "node vortexdev.js"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "aoi.js": "^5.1.2",
+    "opusscript": "^0.0.8"
   },
   "engines": {
-    "node": "12.x"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "aoi.js": "^3.0.0",
-    "v4": "^0.0.1",
-    "aws-signature-v4": "^1.4.0"
+    "node": "16.x"
+
   }
+
 }
