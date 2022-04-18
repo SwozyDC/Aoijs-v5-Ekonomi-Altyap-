@@ -8,7 +8,7 @@ $onlyIf[$isNumber[$noMentionMessage]!=false;😁 | Göndereceğin Miktarı Gir]
 $setGlobalUserVar[param;$sub[$getGlobalUserVarVar[param;$authorID];$noMentionMessage];$authorID]
 $description[1;$setGlobalUserVar[param;$sum[$getGlobalUserVar[param;$mentioned[1]];$noMentionMessage];$mentioned[1]]
 $username[😁| $mentioned[1]]#$discriminator[$mentioned[1]] Kişisine Para Yollandı]
-$color[RANDOM]
+$color[1;RANDOM]
 
  
 
